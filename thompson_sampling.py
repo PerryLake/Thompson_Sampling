@@ -55,7 +55,7 @@ font = "sans serif"
     return f"Configuration file created at: {config_path}"
 
 # Set up the Streamlit configuration
-setup_streamlit_config()
+# setup_streamlit_config()
 
 # Set page configuration
 st.set_page_config(
