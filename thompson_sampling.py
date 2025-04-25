@@ -22,22 +22,16 @@ def setup_streamlit_config():
 
     config_content = """
 [theme]
-# Use the light theme as base
 base = "light"
 
-# Deep navy blue primary color for interactive elements
 primaryColor = "#0E2841"
 
-# Soft cream background color
 backgroundColor = "#FFFAEC"
 
-# Subtle cream variant for sidebar and widgets
 secondaryBackgroundColor = "#F2E8CF"
 
-# Text color matching primary navy
 textColor = "#0E2841"
 
-# Font family - sans serif works well with this design
 font = "sans serif"
 """
     
@@ -112,7 +106,7 @@ st.markdown("""
     
     /* Button styling */
     .stButton>button {
-        background-color: #0E2841;
+        background-color: #FFFAEC;
         color: #FFFAEC;
         font-size: 1.3rem;
         padding: 0.7rem 1.4rem;
