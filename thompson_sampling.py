@@ -222,7 +222,7 @@ st.markdown("""
     
     /* Run simulation button styling */
     section[data-testid="stSidebar"] .stButton > button {
-        background-color: #0E2841;
+        background-color: #FFFAEC;
         color: #FFFAEC; 
         font-size: 1.5rem;
         padding: 1rem 1.2rem;
